@@ -1,0 +1,58 @@
+body {
+    padding: auto;
+    margin: auto;
+    font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    color: #777;
+    background: white;
+    font-size: 18px;
+    width: 960px;
+    line-height: 30px;
+}
+
+.wrapper {
+    display: inline-block;
+    margin: 0;
+    width: 960px;
+}
+
+/* navbar */
+nav {
+    border: 1px black solid;
+    background-color: #cccccc;
+}
+
+.right {
+    float: right;
+}
+
+.right, .kim{
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.kim {
+    background-color: #4aaaa5;
+    height: 100%;
+    width: 100px;
+    float: left;
+}
+
+.right:hover {
+    background-color: #4aaaa5af;
+    transition-duration: .5s;
+    color: white;
+}
+
+/* container */
+.container {
+    border: 1px #dddddd solid;
+    clear: both;
+}
+
+/* img */
+.profile-img {
+    height: 200px;
+    width: 200px;
+    float: left;
+}
