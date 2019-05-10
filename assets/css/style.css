@@ -1,58 +1,73 @@
-body {
-    padding: auto;
-    margin: auto;
-    font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-    color: #777;
-    background: white;
-    font-size: 18px;
-    width: 960px;
-    line-height: 30px;
+* {
+    box-sizing: border-box; 
 }
 
-.wrapper {
-    display: inline-block;
-    margin: 0;
-    width: 960px;
-}
+body {
+    margin: 0px;
+    font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+} 
 
 /* navbar */
-nav {
-    border: 1px black solid;
-    background-color: #cccccc;
+.navbar {
+    font-size: 18px;
+    border: 1px solid black;
+    height: 95px;
+    width: 100%;
+    position: fixed;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #ffffff;
 }
 
-.right {
-    float: right;
+.navbar > .nav-header {
+    display: inline;
 }
 
-.right, .kim{
-    display: block;
-    padding: 8px;
-    text-decoration: none;
-}
-
-.kim {
+.navbar > .nav-header > .kim-logo {
+    display: inline-block;
     background-color: #4aaaa5;
-    height: 100%;
-    width: 100px;
-    float: left;
+    color: white;
+    text-decoration: none;
+    margin-left: 150px;
+    font-size: 30px;
+    padding:30px;
+    text-align: center;
 }
 
-.right:hover {
-    background-color: #4aaaa5af;
+li {
+    display: inline;
+}
+
+.navbar > .nav-right {
+    list-style-type: none;
+    float: right;
+    font-size: 20px;
+    margin-right: 150px;
+    margin-top: 30px;
+}
+
+.nav-right a{
+    color: #777;
+    text-decoration: none;
+    padding: 13px 13px 13px 10px;
+}
+
+.nav-right a:hover {
+    background-color: #4aaaa5;
     transition-duration: .5s;
     color: white;
-}
+} 
 
 /* container */
-.container {
+/* .container {
     border: 1px #dddddd solid;
     clear: both;
 }
 
 /* img */
-.profile-img {
+/* .profile-img {
     height: 200px;
     width: 200px;
     float: left;
-}
+} */ 
