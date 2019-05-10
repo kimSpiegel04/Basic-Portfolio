@@ -125,3 +125,68 @@ footer {
     padding-top: 10px;
     font-size: 12px;
 }
+
+.portfolio-content {
+    margin-top: 40px;
+}
+
+.port {
+    background-size: cover;
+    width: 250px;
+    margin: 10px 0 0 10px;
+    position: relative;
+    float: left;
+}
+ 
+.port-img {
+    height: 200px;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    background-color: #4aaaa5;
+}
+
+.word-guess {
+    margin-bottom: 50px;
+    margin-right: 50px;
+    overflow:hidden;
+}
+
+.rpg {
+    margin-bottom: 50px;
+    margin-right: 50px;
+    overflow:hidden;
+}
+
+.trivia {
+    clear: both;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    overflow:hidden;
+}
+
+.rutgers {
+    margin-bottom: 50px;
+    margin-right: 50px;
+    overflow:hidden;
+}
+
+.rock {
+    clear: both;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    overflow:hidden;
+} 
+
