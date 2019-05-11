@@ -226,12 +226,12 @@ textarea {
 .submit > a {
     background-color: white;
     border: 3px #4aaaa5 solid;
-    padding: 15px;
+    padding: 10px;
     color: #4aaaa5;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .submit a:hover {
@@ -241,4 +241,5 @@ textarea {
 
 .submit {
     margin-bottom: 50px;
+    margin-left: 20px;
 }
