@@ -11,7 +11,7 @@ body {
 /* navbar */
 .navbar {
     font-size: 18px;
-    height: 85px;
+    height: 80px;
     width: 100%;
     position: fixed;
     top: 5px;
@@ -19,7 +19,7 @@ body {
     margin-right: 5px;
     margin-bottom: 20px;
     background-color: #ffffff;
-    overflow: auto;
+    overflow: hidden;
     z-index: 99;
     border-bottom: 2px rgba(119, 119, 119, 0.473) solid;
 }
@@ -28,6 +28,7 @@ body {
     display: inline-block;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+    overflow: hidden;
 }
 
 .navbar > .nav-header > .kim-logo {
@@ -81,6 +82,8 @@ li {
     border: 1px rgba(119, 119, 119, 0.301) solid;
     margin-top: 110px;
     background-color: #ffffff;
+    overflow: hidden;
+    border-bottom: 100px;
 }
 
 /* img */
@@ -111,10 +114,15 @@ p {
     font-size: 18px;
 }
 
+p a {
+   color: #df9fa1;  
+}
+
 /* footer */
 footer {
-    position: fixed;
+    position: sticky;
     left: 0;
+    top: 0;
     bottom: 0;
     width: 100%;
     background: #6666669c;
@@ -124,6 +132,7 @@ footer {
     height: 50px;
     padding-top: 10px;
     font-size: 12px;
+    margin-top: 100px;
 }
 
 .portfolio-content {
@@ -190,3 +199,46 @@ h3 {
     overflow:hidden;
 } 
 
+.grow { 
+    transition: all .1s ease-in-out; 
+}
+
+.grow:hover { 
+    transform: scale(1.1);
+}
+
+.form {
+    color: #777;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.input {
+    width: 100%;
+    padding: 5px;
+}
+
+textarea {
+    height: 300px;
+}
+
+.submit > a {
+    background-color: white;
+    border: 3px #4aaaa5 solid;
+    padding: 15px;
+    color: #4aaaa5;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.submit a:hover {
+    background-color: #4aaaa5;
+    color: white;
+}
+
+.submit {
+    margin-bottom: 50px;
+}
