@@ -217,6 +217,7 @@ h3 {
 .input {
     width: 100%;
     padding: 5px;
+    margin-bottom: 10px;
 }
 
 textarea {
