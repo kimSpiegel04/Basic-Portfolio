@@ -119,20 +119,19 @@ p a {
 }
 
 /* footer */
-footer {
+.footer {
     position: sticky;
-    left: 0;
-    top: 0;
-    bottom: 0;
     width: 100%;
     background: #6666669c;
     border-top: 8px solid #4aaaa5d0;
     color: white;
     text-align: center;
-    height: 50px;
     padding-top: 10px;
     font-size: 12px;
-    margin-top: 100px;
+}
+
+.push, .footer {
+    height: 50px;
 }
 
 .portfolio-content {
